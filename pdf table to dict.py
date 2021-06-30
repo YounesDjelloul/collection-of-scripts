@@ -1,7 +1,7 @@
 import tabula
 
 # list of files
-files = ['Verrerie.pdf']
+files = ['file 1', 'file n']
 
 # initializing the Final dict
 fresh_dic = {}
@@ -31,6 +31,7 @@ for file in files:
 
 			fresh_dic[key] = value
 
+# Saving the Final Data into a TXT file
 f = open("fresh_dic.txt", "a")
 f.write(str(fresh_dic))
 f.close()
